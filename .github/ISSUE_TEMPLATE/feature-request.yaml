@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Before submitting a bug report**
+        **Before submitting a Block request**
 
         This repository is reserved for bug reports and block requests. If you have a usage question, you can:
 
