@@ -1,0 +1,31 @@
+name: "\U0001F680 New Block proposal"
+description: Suggest an idea for a new Block
+title: "[New]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Before submitting a bug report**
+
+        This repository is reserved for bug reports and block requests. If you have a usage question, you can:
+
+        - Read the [documentation](https://www.tremor.so/docs/getting-started/installation)
+        - Ask questions on [Slack](https://join.slack.com/t/tremor-community/shared_invite/zt-1u8jqmcmq-Fdr9B6MbnO7u8FkGh~2Ylg)
+
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: What problem does this Block solve?
+      description: |
+        Explain your use case, context, and rationale behind this Block request.
+
+        An important design goal of Tremor Blocks is keeping the Blocks concise. The problem should be common enough to justify the addition.
+      placeholder: Problem description
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-API
+    attributes:
+      label: What does the proposed Block look like? (if applicable)
+      description: |
+        Describe how the new Block would look like. TIP: You can attach images or files by clicking this area to highlight it and then dragging files in.
