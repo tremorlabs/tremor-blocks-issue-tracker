@@ -50,7 +50,7 @@ body:
       label: What is actually happening?
     validations:
       required: false
-- type: textarea
+  - type: textarea
   attributes:
     label: Screenshots
     description: |
@@ -70,7 +70,7 @@ body:
         - Vivaldi
         - Brave
         - Other
-- type: dropdown
+  - type: dropdown
     id: device
     attributes:
       label: What device(s) are you seeing the problem on? (if applicable)
