@@ -1,4 +1,4 @@
-# Tremor Blocks Tracking
+# Tremor Blocks Issue Tracker
 
 This repo is our go-to spot for keeping an eye on and tackling any bugs
 encountered in [Tremor Blocks](https://blocks.tremor.so).
