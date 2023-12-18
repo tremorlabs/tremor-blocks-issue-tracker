@@ -1,4 +1,4 @@
--name: "\U0001F41E Bug report"
+name: "\U0001F41E Bug report"
 description: Create a report to help us improve
 title: "[Bug]: "
 body:
@@ -51,12 +51,12 @@ body:
     validations:
       required: false
   - type: textarea
-  attributes:
-    label: Screenshots
-    description: |
-      You can attach images or files by clicking this area to highlight it and then dragging files in.
-  validations:
-    required: false
+    attributes:
+      label: Screenshots
+      description: |
+        You can attach images or files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
   - type: dropdown
     id: browsers
     attributes:
